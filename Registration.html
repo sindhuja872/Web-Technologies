@@ -1,51 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Registration Form</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
 </head>
 <body>
-     <center>
-	<h1>Registration</h1>
-     <table>
-     	<tr>
-     		<td>UserName</td>
-     		<td>:</td>
-     		<td><input type="text" name=""></td>
-     	</tr>
-     	<tr>
-     		<td>Password</td>
-     		<td>:</td>
-     		<td><input type="Password" name=""></td>
-     	</tr>
-     </table>
-     <form>
-     		<label>DOB: </label>
-     		<input type="date">
-     </form>
-     <table>
-     	<tr>
-     		<td>Gender:</td>
-     		<td>
-     		<input type="Radio" name="Male" value="Gender">Male
-               <input type="Radio" name="Female" value="Gender">Female
-     		</td>
-     	</tr>
-     	<tr>
-     		<td>Address:</td>
-     		<td><textarea></textarea></td>
-     	</tr>
-     	<tr>
-     		<td>EmailID:</td>
-     		<td><input type="text" name=""></td>
-     	</tr>
-     	<tr>
-     		<td>PhoneNumber:</td>
-     		<td><input type="PhoneNumber" maxlength="10"></td>
-     	</tr>
-        <tr>
-        	<td><input type="submit" value="Register" align="center"></td>
-        </tr>
-     </table>
-</center>
+    <h1 style="text-align:center;">Registration</h1>
+    <form style="text-align: center;">
+        <h2 style="text-align: center;">Personal Details</h2>
+        <lbel>Full name:</label>
+        <input type="text"><br><br>
+        <labe>Date of Birth</label>
+        <input type="date"><br><br>
+        <label>Gender</label>
+        <input type="Radio" name="Male" value="Gender">Male
+        <input type="Radio" name="Female" value="Gender">Female
+        <br><br>
+        <h2 style="text-align:center;">Conatact Details</h2>    
+        <label>Mobile Number: </label>
+        <input type="number" placeholder="+91"><br><br>
+        <label>Email Address:</label>
+        <input type="email">
+        <br><br>
+        <h2>Location</h2>
+        <label>State:</label>
+        <input type="text"><br><br>
+        <label>District:</label>
+        <input type="text"><br><br>
+        <label>City:</label>
+        <input type="text"><br><br>
+        <h2>Are You Vaccinated?</h2>
+        If Yes <input type="button" value="Upload">
+    </form>
 </body>
 </html>
